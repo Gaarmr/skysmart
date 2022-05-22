@@ -1,8 +1,8 @@
-a=[]
-n=int(input('Введите длинну списка '))
+n = int(input('Введите длинну списка '))
+a = [input() for i in range(n)]
 
-for i in range(n):
-    a.append(int(input()))
+# for i in range(n):
+#     a.append(int(input()))
 
 print(a)
 
