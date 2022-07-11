@@ -14,7 +14,7 @@
 n=input() 
 l=len(n)
 for i in range(l-1): 
-    if abs(int(n[i])-int(n[i+1]))==1: 
+    if abs(int(n[i]) - int(n[i+1]))==1: 
         pass
     else: 
         print(0) 
