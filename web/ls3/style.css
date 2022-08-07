@@ -1,0 +1,193 @@
+header {
+    background-color: rgb(255, 232, 103);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+
+}
+
+.centered {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.text_price {
+    background-color: red;
+    color: rgb(247, 247, 247);
+    padding: 2px;
+}
+
+main {
+    margin-top: 350px;
+    margin-bottom: 30px;
+
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.text_top2 {
+    margin-top: 320px;
+}
+
+.text_top3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.add_to_cart {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.t-shirts {
+    display: flex;
+    justify-content: center;
+}
+
+.t-shirt {
+    padding: 20px ;
+}
+
+.t-shirt_image {
+    border: 1px solid black;
+}
+
+body {
+    background-image: url(images/backgroud.jpeg)
+}
+
+.wrapper {
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 10px 7px 15px 3px rgb(0, 0, 0) ;
+}
+
+.order {
+    margin-top: 80px;
+}
+
+.cart {
+    background-color: rgb(254, 239, 100);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+}
+
+input {
+    width: 380px;
+    height: 40px;
+    box-shadow: 4px 4px 4px 0px black;
+    border: 1px solid white;
+    padding-left: 15px;
+}
+
+.form_centered {
+    display: flex;
+    justify-content: center;
+}
+
+.order_button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px 0px black;
+    font-weight: bold;
+}
+
+hr {
+    border: 0px;
+    height: 0px;
+    box-shadow: 1px 1px 7px 0.5px black;
+}
+
+.tp_image  {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 40px    ;
+    border: 1px solid black
+}
+
+.gift_image {
+    position: absolute;
+    top: 0;
+    margin-top: 20px;
+}
+
+@keyframes animation1 {
+    0% {
+        margin-left: 0%;
+        color: red;
+    }
+
+    50% {
+        color: green;
+    }
+
+    100% {
+        margin-left: 85%;
+        color: blue;
+    }
+}
+
+.anima {
+    animation-name: animation1 ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 0s;
+}
+
+
+.modal {
+    display: block;
+    visibility: hidden;
+    z-index: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.modal_content {
+    background-color: #fefefe;
+    margin: 15px auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover {
+    color: red;
+    cursor: pointer;
+}
