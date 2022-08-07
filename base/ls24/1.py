@@ -1,6 +1,7 @@
 def cg_composition(s: str) -> int:
-    l = len(s)
+    ln = len(s)
     count_cg = s.count('C') + s.count('G')
-    return count_cg / l * 100
+    return (count_cg * 100) / ln
 
-print(cg_composition('ACCCCCCCCC'))
+
+print(cg_composition('AAACCCCCCC'))

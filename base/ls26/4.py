@@ -10,6 +10,7 @@ def count_of_words(text: str) -> dict:
         dct[word] = dct.get(word, 0) + 1
     return dct
 
+
 print(count_of_words('''
     "Would you tell me, please, which way I ought to go from here?"
     "That depends a good deal on where you want to get to," said the Cat.

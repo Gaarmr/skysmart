@@ -9,4 +9,5 @@ def get_sum(*nums: int):
 
     print("Sum: ", sum)
 
+
 get_sum(-1, 0, math.inf)

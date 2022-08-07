@@ -11,13 +11,13 @@
 # print(fl)
 
 
-n=input() 
-l=len(n)
-for i in range(l-1): 
-    if abs(int(n[i]) - int(n[i+1]))==1: 
+n = input()
+ln = len(n)
+for i in range(ln-1):
+    if abs(int(n[i]) - int(n[i+1])) == 1:
         pass
-    else: 
-        print(0) 
-        break 
-else: 
+    else:
+        print(0)
+        break
+else:
     print(1)

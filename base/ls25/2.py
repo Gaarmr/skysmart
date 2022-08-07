@@ -8,9 +8,7 @@
 #     return res
 
 
-
 # print(dna('AATTCCGG'))
-
 
 
 # def dna(s: str) -> dict:
@@ -23,15 +21,15 @@
 #     return res
 
 
-
 # print(dna('AATTCCGG'))
 
 
-def dna(s:str): 
-    a=s.count("A") 
-    t=s.count("T") 
-    c=s.count("C") 
-    g=s.count("G") 
-    return {"A":a,"T":t,"C":c,"G":g} 
-    
+def dna(s: str):
+    a = s.count("A")
+    t = s.count("T")
+    c = s.count("C")
+    g = s.count("G")
+    return {"A": a, "T": t, "C": c, "G": g}
+
+
 print(dna("AAATCCCG"))

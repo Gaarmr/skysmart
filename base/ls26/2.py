@@ -5,5 +5,4 @@ def chars(s: str) -> dict:
     return res
 
 
-
 print(chars('AAABBBCCC'))

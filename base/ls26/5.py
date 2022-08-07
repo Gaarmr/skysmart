@@ -10,21 +10,21 @@ text = '''
     "Oh, you're sure to do that," said the Cat, "if you only walk long enough."
 '''
 
+
 def count_of_words(text: str) -> list:
     dct = {}
     lst = []
     text = text.translate(text.maketrans('', '', string.punctuation))
     text = text.lower()
     # print(text)
-    
+
     for word in text.split():
         dct[word] = dct.get(word, 0) + 1
-    
+
     for key, value in dct.items():
         lst.append((value, key))
-    
-    return sorted(lst, reverse=True)
 
+    return sorted(lst, reverse=True)
 
 
 result = count_of_words(text)

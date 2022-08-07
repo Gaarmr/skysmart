@@ -1,6 +1,6 @@
 # def dna(s: str) -> str:
 #     res = ''
-    
+
 #     for i in s:
 #         if i == 'A':
 #             res += 'T'
@@ -10,7 +10,7 @@
 #             res += 'G'
 #         elif i == 'G':
 #             res += 'C'
-    
+
 #     return res
 
 
@@ -27,6 +27,3 @@ def dna(dna_string: str) -> str:
 
 
 print(dna('ATCG'))
-
-
-

@@ -1,7 +1,7 @@
-a = '908065033'
+a = '90134865793180467'
 b = ''
 for i in a:
-    if i.isdigit() == True:
+    if i.isdigit():
         i = int(i)
         if i > 4:
             b += '1'

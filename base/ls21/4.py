@@ -1,4 +1,5 @@
-from typing import List
+# from typing import List
+
 
 def excl(s: str):
     if s[-1] == '1':
@@ -8,10 +9,11 @@ def excl(s: str):
         print(s)
 
 
-
 excl(input())
+
 
 # def func(n: int) -> List[int]:
 #     return list(range(n))
 
-# func()
+
+# func(input())

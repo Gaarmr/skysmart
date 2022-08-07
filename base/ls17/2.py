@@ -1,6 +1,6 @@
 n = '105501'
 digits = []
-#digits = [int(c) for c in n]
+# digits = [int(c) for c in n]
 
 for i in n:
     digits.append(int(i))
@@ -13,7 +13,6 @@ if sum(digits[:middle]) == sum(digits[middle+offset:]):
     print(1)
 else:
     print(0)
-
 
 
 # print(int(sum(digits[:middle]) == sum(digits[middle+offset:])))

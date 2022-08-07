@@ -11,6 +11,7 @@ def twinkle_twinkle():
         Twinkle, twinkle, all the night
     ''')
 
+
 def twink_repeat():
     rep = int(input('Сколько раз повторить стих? '))
     for i in range(rep):
